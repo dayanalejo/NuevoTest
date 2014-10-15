@@ -221,7 +221,7 @@ function writeJUnitXMLFile(tests)
 	
 	// Write XML to file
 	var fileloc = "/Users/Shared/Jenkins/Home/tmp/junit-buildresults.xml";	
-	var newFile = Titanium.Filesystem.getFile("/tmp", "junit-buildresults.xml");
+	var newFile = Titanium.Filesystem.getFile("/Users/Shared/Jenkins/Home/tmp", "junit-buildresults.xml");
 		
 	newFile.createFile();
 	
