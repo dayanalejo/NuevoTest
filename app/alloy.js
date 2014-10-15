@@ -9,7 +9,7 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
-if( Ti.App.deployType !== 'test' )
+if( Ti.App.deployType == 'test' )
 {
 	var behave = require('behave');
 
