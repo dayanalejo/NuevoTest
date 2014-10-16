@@ -9,8 +9,10 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
+	log('aqui toy');
 if( Ti.App.deployType !== 'production' )
 {
+	log('aqui toy');
 	var behave = require('behave');
 
 	//require your created specs
